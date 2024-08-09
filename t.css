@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    padding: 0;
+   
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.banner {
+    width: 100%;
+    height: 18%;
+    background-color: #060389;
+}
+
+.navbar {
+    width: 100%;
+    height: 10%;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar nav {
+    display: flex;
+    gap: 300px;
+    
+}
+.g{
+    display: flex;
+    justify-content: space-around;
+}
+.order-button  {
+    padding: 10px 20px;
+    background-color: #00ff0d;
+color: #000;
+text-decoration: none;
+    border: none;
+    border-radius: 25px;
+    font-size: 18px;
+
+  
+}
+
+
+.orde-button  {
+    padding: 10px 20px;
+    background-color: #ff2525;
+    color: #000;
+    border: none;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 18px;
+  
+}
+
+.navbar nav a {
+    text-decoration: none;
+    color: #000000;
+    background-color: lightgray;
+    padding: 10px 30px;
+    border-radius: 15px;
+    font-size: 20px;
+}
+.content {
+    width: 100%;
+    height: 60%;
+    flex-grow: 1;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    width: 250px;
+    height: 250px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -75px;
+    position: absolute;
+    top: 140px;
+    left: 800px;
+}
+
+.logo img {
+    width: 360px;
+    height: 290px;
+}
+
+.form-container {
+    max-width: 800px;
+    width: 100%;
+    height: 60%;
+    background-color: #fff;
+    padding: 20px;
+    border: 15px solid #060389;
+    border-radius: 10px;
+   text-align: center;
+  
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    gap: 40px;
+}
+
+.form-g label {
+    display: block; 
+    text-align: left;
+}
+
+.form-g input {
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 3px solid #000000;
+}
+.footer {
+    width: 100%;
+    height: 20%;
+    background-color: #A70101;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
